@@ -1,0 +1,28 @@
+{
+  "url": "{{base.url}}",
+  "headers": {
+    "X-Api-Key": "{{api-key}}",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "billable": true,
+    "customFields": [
+      {
+        "customFieldId": "string",
+        "sourceType": "WORKSPACE",
+        "value": { }
+      }
+    ],
+    "description": "{{description_hour}}",
+    "end": "2019-08-24T14:15:22Z",
+    "id": "{{time_id}}",
+    "projectId": "{{project_id}}",
+    "start": "2019-08-24T14:15:22Z",
+    "tagIds": [
+      ""
+    ],
+    "taskId": ""
+  },
+  "endpoint": "/v1/workspaces/{{id-workspace}}/time-entries/{{time_id}}"
+
+}
